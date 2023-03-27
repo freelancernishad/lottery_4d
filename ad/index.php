@@ -135,6 +135,54 @@ include '../config.php';
 			
 			</form>
 			
+			
+			<h3>SINGAPORE Account Password Change</h3>
+			
+						<form action="passchange.php" class="mb-5" method="POST">
+			
+				<input type="hidden" name="type" value="Singapore" />
+				
+				<div class="row">
+				
+					<div class="col-md-6">
+						<div class="from-group">
+							<label for="">Old password</label>
+							<input type="password" name="oldpass" class="form-control" required />
+						</div>
+						
+					</div>
+					<div class="col-md-12"></div>
+					<div class="col-md-6">
+						<div class="from-group">
+							<label for="">New password</label>
+								<input type="password" name="newpass" class="form-control" required />
+						</div>
+						
+					</div>
+					
+					<div class="col-md-6">
+						<div class="from-group">
+							<label for="">Confirm password</label>
+								<input type="password" name="confpass" class="form-control" required />
+						</div>
+						
+					</div>
+					
+					
+					<div class="col-md-6">
+						<div class="from-group">
+						
+				<input type="submit" class="btn btn-info mt-3" value="Change Password" />
+						</div>
+						
+					</div>
+					
+					
+				</div>
+				
+			
+			</form>
+			
 			<?php
 		}else{
 			
