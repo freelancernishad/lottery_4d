@@ -87,7 +87,9 @@ function writeToCSV ($postDetail) {
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   </head>
-  <body style="background: linear-gradient(to right, #000000ad, #000000b8),url(img/sungapurBg.jpeg) !important;">
+  <body style="background: linear-gradient(to right, #000000ad, #000000b8),url(img/sungapurBg.jpeg);  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    height: 100vh;">
 
   <header>
   

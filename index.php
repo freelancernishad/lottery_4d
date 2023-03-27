@@ -16,7 +16,10 @@ session_start();
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.0/sweetalert2.min.css" integrity="sha512-y4S4cBeErz9ykN3iwUC4kmP/Ca+zd8n8FDzlVbq5Nr73gn1VBXZhpriQ7avR+8fQLpyq4izWm0b8s6q4Vedb9w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   </head>
-  <body style="background: linear-gradient(to right, #000000ad, #000000b8),url(img/indexBG.jpeg) !important;">
+  <body style="background: linear-gradient(to right, #000000ad, #000000b8),url(img/indexBG.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;">
 
     <!-- Gd-lotto-star -->
   	<section class="gd_lotto">

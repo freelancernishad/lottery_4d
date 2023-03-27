@@ -93,7 +93,9 @@ echo '3rd Prize : '.$postDetail[8];
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   </head>
-  <body style="background: linear-gradient(to right, #000000ad, #000000b8),url(img/ToToBg.jpeg) !important;">
+  <body style="background: linear-gradient(to right, #000000ad, #000000b8),url(img/ToToBg.jpeg);  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    height: 100vh;">
 
   <header>
   
