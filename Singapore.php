@@ -60,7 +60,7 @@ function writeToCSV ($postDetail) {
 	exit();
 }
  
-	$html = scrapWebsite('https://www.check4d.org/');	
+	$html = scrapWebsite('https://mobile.4dking.live/v2/live-4d-results-singapore-pool');	
 	$postDetail = getPostDetails($html);
  	// echo '<pre>';
 	// print_r($postDetail);
@@ -110,7 +110,7 @@ function writeToCSV ($postDetail) {
 
 	
 	
-        <input style="height: 50px; font-size: 20px; outline: none;text-align:center" class="border border-danger" type="text" name="lottoNumber" id="lottoNumber" value="<?php echo  $postDetail[422] ?>" readonly>
+        <input style="height: 50px; font-size: 20px; outline: none;text-align:center" class="border border-danger" type="text" name="lottoNumber" id="lottoNumber" value="<?php echo  $postDetail[2] ?>" readonly>
     </div>
 
     
